@@ -6236,7 +6236,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: none;
   position: absolute;
   z-index: 100;
-  width: 15rem;
+  width: 20rem;
 }
 @media screen and (min-width: 1024px) {
   .page__nav {
@@ -6255,7 +6255,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 @media screen and (min-width: 1024px) {
   .page__content {
-    margin-left: 15rem;
+    margin-left: 20rem;
   }
 }
 .page__content header img {

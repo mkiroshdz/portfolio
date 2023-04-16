@@ -6,17 +6,17 @@
 - name: Eventtia
   url: https://eventtia.com/
   logo: assets/img/eventtia.jpg
-  description: Eventtia is tool to organize events of small and medium size.
+  description: Eventtia is a tool to manage small and medium-sized events.
 
 - name: Phonic
   url: https://www.phonic.ai/
   logo: assets/img/phonic.png
-  description: Phonic is a research plataform focused on capturing and analysing audio and video
+  description: Phonic is a research platform focused on capturing and analyzing data from audio and video.
 
 - name: TrueX
   url: https://infillion.com/media/truex/
   logo: assets/img/truex.png
-  description: TrueX allow advertisers to customise their ad experience to maximize engagement and keeping the consumer's attention.  
+  description: TrueX allows advertisers to customize their ad experiences to maximize engagement and consumer attention.  
 
 - name: Untappd
   url: https://untappd.com/

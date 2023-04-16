@@ -6246,15 +6246,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .page__content {
   position: relative;
-  max-width: 80rem;
   height: 100vh;
   overflow: scroll;
   scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
-.page__content ::-webkit-scrollbar {
-  display: none;
+.page__content main {
+  max-width: 80rem;
 }
 @media screen and (min-width: 1024px) {
   .page__content {
@@ -6283,12 +6280,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   text-overflow: ellipsis;
 }
 .page__content .projects figure {
-  height: 10rem;
+  height: 15rem;
 }
 .page__content .projects img {
   display: block;
-  margin: 0 auto;
-  border-radius: 3rem;
   height: 100%;
   width: 100%;
   object-fit: contain;

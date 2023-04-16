@@ -4,7 +4,7 @@ title: "mkiroshdz"
 ---
 
 <!-- About  -->
-<section id="about" class='is-desktop about mb-3'>
+<section id="about" class='is-desktop about mb-6 card p-4'>
   <h3 class="title is-2">About</h3>
   <div class="columns">
     <div class="column is-half-desktop is-size-4">
@@ -43,21 +43,44 @@ title: "mkiroshdz"
 <!-- projects  -->
 <section id="projects" class='is-desktop projects mb-3'>
   <h3 class="title is-2 mb-6">Projects</h3>
-  <div class="columns is-flex is-flex-wrap-wrap">
-    {% for entry in site.data.projects %}
-      <div class="column is-half-desktop">
-        <div class="p-6 card">
-          <h4 class="has-text-centered title is-3 mb-6">
-            <a href={{ entry.url }} target="_blank">{{ entry.name }}</a>
-          </h4>
-          <figure class="mb-3">
-            <img src={{ entry.logo | relative_url }} />
-          </figure>
-          <p class="is-size-5 has-text-centered">
-            {{ entry.description }}
-          </p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+
+  <div class="glide p-2">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        {% for entry in site.data.projects %}
+          <li class="glide__slide">
+            <a href={{ entry.url }} target="_blank">
+              <div class="p-6">
+                <h4 class="has-text-centered title is-3 mb-6">
+                  {{ entry.name }}
+                </h4>
+                <figure class="mb-3">
+                  <img src={{ entry.logo | relative_url }} />
+                </figure>
+                <p class="is-size-5 has-text-centered">
+                  {{ entry.description }}
+                </p>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>   
 </section>
+
+<script>
+  new Glide('.glide', {
+    startAt: 1,
+    perView: 3,
+    hoverpause: true,
+    autoplay: 4000,
+    bound: true,
+      breakpoints: {
+        1000: {
+          perView: 1
+        }
+      }
+  }).mount()
+
+</script>

@@ -3,6 +3,10 @@
 
 @import "base"
 
+.card 
+  background-color: findLightColor($green)
+  border-radius: 0.7rem
+
 .page
   position: relative
 
@@ -10,9 +14,7 @@
   display: none
   position: absolute
   z-index: 100
-  top: 30vh
-  width: 25rem
-  border-style: double
+  width: 15rem
 
   +desktop()
     display: block
@@ -30,7 +32,7 @@
     display: none
 
   +desktop()
-    margin-left: 25rem
+    margin-left: 15rem
 
   header
     img
@@ -48,10 +50,10 @@
         display: block
 
   .projects
-    .card 
-      color: $blue
-      border-radius: 2rem
-      border: 0.2rem dashed $green
+    p
+      overflow: hidden
+      height: 10rem
+      text-overflow: ellipsis
 
     figure
       height: 10rem
@@ -63,12 +65,29 @@
       height: 100%
       width: 100%
       object-fit: contain
+    
+    .glide__slides
+      height: 30rem
+      width: 100%
+      overflow: hidden
+      
+    .glide__slide
+      display: inline-block
+      width: 100%
+      opacity: 0.7
+      animation-duration: 5s
+      animation-timing-function: ease-in
+    
+    .glide__slide:hover
+      opacity: 1
+      background-color: findLightColor($cyan)
+
 
   .about
     img
       position: relative
-      top: 8rem
-      left: -3rem
+      top: 6rem
+      left: -2rem
       object-fit: cover
   
   .experience

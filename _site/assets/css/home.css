@@ -6223,6 +6223,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     visibility: hidden !important;
   }
 }
+.card {
+  background-color: #effaf5;
+  border-radius: 0.7rem;
+}
+
 .page {
   position: relative;
 }
@@ -6231,9 +6236,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: none;
   position: absolute;
   z-index: 100;
-  top: 30vh;
-  width: 25rem;
-  border-style: double;
+  width: 15rem;
 }
 @media screen and (min-width: 1024px) {
   .page__nav {
@@ -6255,7 +6258,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 @media screen and (min-width: 1024px) {
   .page__content {
-    margin-left: 25rem;
+    margin-left: 15rem;
   }
 }
 .page__content header img {
@@ -6274,10 +6277,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     display: block;
   }
 }
-.page__content .projects .card {
-  color: hsl(229, 53%, 53%);
-  border-radius: 2rem;
-  border: 0.2rem dashed hsl(153, 53%, 53%);
+.page__content .projects p {
+  overflow: hidden;
+  height: 10rem;
+  text-overflow: ellipsis;
 }
 .page__content .projects figure {
   height: 10rem;
@@ -6290,10 +6293,26 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   width: 100%;
   object-fit: contain;
 }
+.page__content .projects .glide__slides {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+.page__content .projects .glide__slide {
+  display: inline-block;
+  width: 100%;
+  opacity: 0.7;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+}
+.page__content .projects .glide__slide:hover {
+  opacity: 1;
+  background-color: #eff5fb;
+}
 .page__content .about img {
   position: relative;
-  top: 8rem;
-  left: -3rem;
+  top: 6rem;
+  left: -2rem;
   object-fit: cover;
 }
 .page__content .experience {

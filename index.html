@@ -1,0 +1,63 @@
+---
+layout: home
+title: "mkiroshdz"
+---
+
+<!-- About  -->
+<section id="about" class='is-desktop about mb-3'>
+  <h3 class="title is-2">About</h3>
+  <div class="columns">
+    <div class="column is-half-desktop is-size-4">
+      {% for txt in site.data.about %}
+        <p class="mb-3">{{ txt }}</p>
+      {% endfor %}
+    </div>
+    <div class="column is-half-desktop is-hidden-mobile">
+      <img src={{ "/assets/img/coding.png" | relative_url }} />
+    </div>
+  </div>
+</section>
+
+<!-- experience  -->
+<section id="experience" class='experience'>
+  <h3 class="title is-2 mb-6">Experience</h3>
+  <ul class="m-4 pl-5">
+    {% for entry in site.data.experience %}
+      <li class="columns">
+        <figure class="column is-1 is-hidden-mobile">
+          <img src={{ entry.logo | relative_url }} />
+        </figure>
+        <div class="column is-9">
+          <h4 class="title is-4">{{ entry.company }}</h4>
+          <p class="subtitle">
+            {{ entry.from }}-{{ entry.until }} | 
+            {{ entry.position }} |
+            {{ entry.location }}
+          </p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- projects  -->
+<section id="projects" class='is-desktop projects mb-3'>
+  <h3 class="title is-2 mb-6">Projects</h3>
+  <div class="columns is-flex is-flex-wrap-wrap">
+    {% for entry in site.data.projects %}
+      <div class="column is-half-desktop">
+        <div class="p-6 card">
+          <h4 class="has-text-centered title is-3 mb-6">
+            <a href={{ entry.url }} target="_blank">{{ entry.name }}</a>
+          </h4>
+          <figure class="mb-3">
+            <img src={{ entry.logo | relative_url }} />
+          </figure>
+          <p class="is-size-5 has-text-centered">
+            {{ entry.description }}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

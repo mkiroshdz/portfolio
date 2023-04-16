@@ -1,0 +1,27 @@
+- company: Inventto
+  logo: /assets/img/inventto.jpeg
+  from: 2013
+  until: 2017
+  position: FullStack Developer
+  location: Envigado, Colombia 
+
+- company: Globant
+  logo: /assets/img/globant.png
+  from: 2017
+  until: 2021
+  position: Ssr Ruby Developer
+  location: Medellín, Colombia 
+
+- company: Gorilla Logic
+  logo: /assets/img/gorilla.jpeg
+  from: 2021
+  until: 2022
+  position: Ruby Consultant
+  location: Medellín, Colombia
+
+- company: Revelo
+  logo: /assets/img/revelo.png
+  from: 2022
+  until: Currently
+  position: Consultant
+  location: Remote

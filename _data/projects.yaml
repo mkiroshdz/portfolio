@@ -1,0 +1,24 @@
+- name: Weedmaps
+  url: https://weedmaps.com/
+  logo: /assets/img/weedmaps.png
+  description: Weedmaps connects cannabis consumers, patients, retailers, doctors, and brands.
+
+- name: Eventtia
+  url: https://eventtia.com/
+  logo: /assets/img/eventtia.jpg
+  description: Eventtia is tool to organize events of small and medium size.
+
+- name: Phonic
+  url: https://www.phonic.ai/
+  logo: /assets/img/phonic.png
+  description: Phonic is a research plataform focused on capturing and analysing audio and video
+
+- name: TrueX
+  url: https://infillion.com/media/truex/
+  logo: /assets/img/truex.png
+  description: TrueX allow advertisers to customise their ad experience to maximize engagement and keeping the consumer's attention.  
+
+- name: Untappd
+  url: https://untappd.com/
+  logo: /assets/img/untappd.png
+  description: Untappd is an app that invites people to socially share the beers they're currently enjoying

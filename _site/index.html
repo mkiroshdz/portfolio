@@ -8,8 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   </head>
   <body>
     <div class="page is-family-monospace">
@@ -69,19 +67,12 @@
           <!-- About  -->
 <section id="about" class='is-desktop about mb-6 card p-4'>
   <h3 class="title is-2">About</h3>
-  <div class="columns">
-    <div class="column is-half-desktop is-size-4">
-      
-        <p class="mb-3">Hi, I'm Monica.</p>
-      
-        <p class="mb-3">In 2017 I started working for consultancy companies and have had the chance to collaborate on awesome projects developed by distributed teams.</p>
-      
-        <p class="mb-3">I'm experienced with back and front-end technologies and love collaborating on projects that push me to keep learning</p>
-      
-    </div>
-    <div class="column is-half-desktop is-hidden-mobile">
-      <img src=/portfolio/assets/img/coding.png />
-    </div>
+  <div class="column is-size-4">
+    
+      <p class="mb-3">Hi, I'm Monica.</p>
+    
+      <p class="mb-3">Since 2017 I had worked for consultancy companies and had the chance to collaborate on awesome projects developed by distributed teams.</p>
+    
   </div>
 </section>
 
@@ -152,111 +143,110 @@
 <!-- projects  -->
 <section id="projects" class='is-desktop projects mb-3'>
   <h3 class="title is-2 mb-6">Projects</h3>
-  <div class="glide p-2">
-    <div class="glide__track" data-glide-el="track">
-      <ul class="glide__slides">
-        
-          <li class="glide__slide">
-            <a href=https://weedmaps.com/ target="_blank">
-              <div class="p-3">
-                <h5 class="has-text-centered title is-4 mb-6">
-                  Weedmaps
-                </h5>
-                <figure class="mb-3">
-                  <img src=/portfolio/assets/img/weedmaps.png />
-                </figure>
-                <p class="is-size-5 has-text-centered">
-                  Weedmaps connects cannabis consumers, patients, retailers, doctors, and brands.
-                </p>
-              </div>
-            </a>
-          </li>
-        
-          <li class="glide__slide">
-            <a href=https://eventtia.com/ target="_blank">
-              <div class="p-3">
-                <h5 class="has-text-centered title is-4 mb-6">
-                  Eventtia
-                </h5>
-                <figure class="mb-3">
-                  <img src=/portfolio/assets/img/eventtia.jpg />
-                </figure>
-                <p class="is-size-5 has-text-centered">
-                  Eventtia is a tool to manage small and medium-sized events.
-                </p>
-              </div>
-            </a>
-          </li>
-        
-          <li class="glide__slide">
-            <a href=https://www.phonic.ai/ target="_blank">
-              <div class="p-3">
-                <h5 class="has-text-centered title is-4 mb-6">
-                  Phonic
-                </h5>
-                <figure class="mb-3">
-                  <img src=/portfolio/assets/img/phonic.png />
-                </figure>
-                <p class="is-size-5 has-text-centered">
-                  Phonic is a research platform focused on capturing and analyzing data from audio and video.
-                </p>
-              </div>
-            </a>
-          </li>
-        
-          <li class="glide__slide">
-            <a href=https://infillion.com/media/truex/ target="_blank">
-              <div class="p-3">
-                <h5 class="has-text-centered title is-4 mb-6">
-                  TrueX
-                </h5>
-                <figure class="mb-3">
-                  <img src=/portfolio/assets/img/truex.png />
-                </figure>
-                <p class="is-size-5 has-text-centered">
-                  TrueX allows advertisers to customize their ad experiences to maximize engagement and consumer attention.
-                </p>
-              </div>
-            </a>
-          </li>
-        
-          <li class="glide__slide">
-            <a href=https://untappd.com/ target="_blank">
-              <div class="p-3">
-                <h5 class="has-text-centered title is-4 mb-6">
-                  Untappd
-                </h5>
-                <figure class="mb-3">
-                  <img src=/portfolio/assets/img/untappd.png />
-                </figure>
-                <p class="is-size-5 has-text-centered">
-                  Untappd is an app that invites people to socially share the beers they're currently enjoying
-                </p>
-              </div>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>   
+  <div class="pt-6">
+    
+      <div class="projects__slide">
+        <div class="projects__description p-3 is-size-4">
+          
+            <p class="mb-3">Description: Weedmaps connects cannabis consumers, patients, retailers, doctors, and brands.</p>
+          
+            <p class="mb-3">Technologies: Ruby on Rails, StimulusJS, Grape, RabbitMQ, PostgreSQL, ElasticSearch, Google Protobuffers, Redis, Memcached</p>
+          
+        </div>
+        <div class="p-3 projects__logo">
+          <a href=https://weedmaps.com/ target="_blank">
+            <h5 class="title is-3">
+              Weedmaps
+            </h5>
+            <figure class="mb-3">
+              <img src=/portfolio/assets/img/weedmaps.png />
+            </figure>
+          </a>
+        </div>
+      </div>
+    
+      <div class="projects__slide">
+        <div class="projects__description p-3 is-size-4">
+          
+            <p class="mb-3">Eventtia is a tool to manage small and medium-sized events.</p>
+          
+            <p class="mb-3">Technologies: Ruby on Rails, JQuery, Bootstrap, MySQL, Redis, Memcached, EC2</p>
+          
+        </div>
+        <div class="p-3 projects__logo">
+          <a href=https://eventtia.com/ target="_blank">
+            <h5 class="title is-3">
+              Eventtia
+            </h5>
+            <figure class="mb-3">
+              <img src=/portfolio/assets/img/eventtia.jpg />
+            </figure>
+          </a>
+        </div>
+      </div>
+    
+      <div class="projects__slide">
+        <div class="projects__description p-3 is-size-4">
+          
+            <p class="mb-3">Phonic is a research platform focused on capturing and analyzing data from audio and video.</p>
+          
+            <p class="mb-3">Technologies: React, Redux, Flask, AWS, Google App Engine</p>
+          
+        </div>
+        <div class="p-3 projects__logo">
+          <a href=https://www.phonic.ai/ target="_blank">
+            <h5 class="title is-3">
+              Phonic
+            </h5>
+            <figure class="mb-3">
+              <img src=/portfolio/assets/img/phonic.png />
+            </figure>
+          </a>
+        </div>
+      </div>
+    
+      <div class="projects__slide">
+        <div class="projects__description p-3 is-size-4">
+          
+            <p class="mb-3">TrueX allows advertisers to customize their ad experiences to maximize engagement and consumer attention.</p>
+          
+            <p class="mb-3">Technologies: Ruby on Rails, StimulusJS, Angular, Redis, Memcached, MySQL</p>
+          
+        </div>
+        <div class="p-3 projects__logo">
+          <a href=https://infillion.com/media/truex/ target="_blank">
+            <h5 class="title is-3">
+              TrueX
+            </h5>
+            <figure class="mb-3">
+              <img src=/portfolio/assets/img/truex.png />
+            </figure>
+          </a>
+        </div>
+      </div>
+    
+      <div class="projects__slide">
+        <div class="projects__description p-3 is-size-4">
+          
+            <p class="mb-3">Atria is a wealth management solutions holding company that develops its own internal tool to support advisors.</p>
+          
+            <p class="mb-3">Technologies: Ruby on Rails, PostgreSQL, ElasticSearch, Redis, Memcached, Capistrano</p>
+          
+        </div>
+        <div class="p-3 projects__logo">
+          <a href=# target="_blank">
+            <h5 class="title is-3">
+              Atria Wealth Solutions
+            </h5>
+            <figure class="mb-3">
+              <img src=/portfolio/assets/img/atria.jpeg />
+            </figure>
+          </a>
+        </div>
+      </div>
+    
+  </div>
 </section>
-
-<script>
-  new Glide('.glide', {
-    startAt: 1,
-    perView: 3,
-    hoverpause: true,
-    autoplay: 4000,
-    bound: true,
-      breakpoints: {
-        1000: {
-          perView: 1,
-          autoplay: false
-        }
-      }
-  }).mount()
-
-</script>
         </main>
       </div>
     </div>

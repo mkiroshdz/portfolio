@@ -47,35 +47,45 @@
         display: block
 
   .projects
-    p
-      overflow: hidden
-      height: 10rem
-      text-overflow: ellipsis
-
-    figure
-      height: 15rem
-
-    img
-      display: block
-      height: 100%
+    &__slide
+      position: relative
       width: 100%
-      object-fit: contain
-    
-    .glide__slides
-      height: 30rem
-      width: 100%
-      overflow: hidden
+      height: 20rem
+      margin-top: 2rem
+      border-bottom: 1px $cyan solid
+      transition-property: left
+      transition-duration: 0.2s 
       
-    .glide__slide
+      img
+        max-height: 10rem
+
+      +desktop
+        opacity: 0.5
+        left: -70%
+
+        &:hover
+          opacity: 1
+          left: 0
+
+          .projects__description
+            opacity: 1
+    
+    &__logo
       display: inline-block
       width: 100%
-      opacity: 0.7
-      animation-duration: 5s
-      animation-timing-function: ease-in
-    
-    .glide__slide:hover
-      opacity: 1
-      background-color: findLightColor($cyan)
+
+      +desktop
+        width: 20%
+
+    &__description
+      width: 70%
+      display: none
+      opacity: 0
+      transition-property: opacity
+      transition-duration: 0.1s
+      transition-timing-function: ease-in
+      +desktop
+        display: inline-block
 
 
   .about

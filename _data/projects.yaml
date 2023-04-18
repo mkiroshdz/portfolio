@@ -1,24 +1,34 @@
 - name: Weedmaps
   url: https://weedmaps.com/
   logo: assets/img/weedmaps.png
-  description: Weedmaps connects cannabis consumers, patients, retailers, doctors, and brands.
+  description: 
+   - 'Description: Weedmaps connects cannabis consumers, patients, retailers, doctors, and brands.'
+   - 'Technologies: Ruby on Rails, StimulusJS, Grape, RabbitMQ, PostgreSQL, ElasticSearch, Google Protobuffers, Redis, Memcached'
 
 - name: Eventtia
   url: https://eventtia.com/
   logo: assets/img/eventtia.jpg
-  description: Eventtia is a tool to manage small and medium-sized events.
+  description: 
+   - Eventtia is a tool to manage small and medium-sized events.
+   - 'Technologies: Ruby on Rails, JQuery, Bootstrap, MySQL, Redis, Memcached, EC2'
 
 - name: Phonic
   url: https://www.phonic.ai/
   logo: assets/img/phonic.png
-  description: Phonic is a research platform focused on capturing and analyzing data from audio and video.
+  description: 
+    - Phonic is a research platform focused on capturing and analyzing data from audio and video.
+    - 'Technologies: React, Redux, Flask, AWS, Google App Engine'
 
 - name: TrueX
   url: https://infillion.com/media/truex/
   logo: assets/img/truex.png
-  description: TrueX allows advertisers to customize their ad experiences to maximize engagement and consumer attention.  
+  description: 
+    - TrueX allows advertisers to customize their ad experiences to maximize engagement and consumer attention.  
+    - 'Technologies: Ruby on Rails, StimulusJS, Angular, Redis, Memcached, MySQL'
 
-- name: Untappd
-  url: https://untappd.com/
-  logo: assets/img/untappd.png
-  description: Untappd is an app that invites people to socially share the beers they're currently enjoying
+- name: Atria Wealth Solutions
+  url: '#'
+  logo: assets/img/atria.jpeg
+  description: 
+    - Atria is a wealth management solutions holding company that develops its own internal tool to support advisors. 
+    - 'Technologies: Ruby on Rails, PostgreSQL, ElasticSearch, Redis, Memcached, Capistrano'

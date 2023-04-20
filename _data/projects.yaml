@@ -2,7 +2,7 @@
   url: https://weedmaps.com/
   logo: assets/img/weedmaps.png
   description: 
-   - 'Description: Weedmaps connects cannabis consumers, patients, retailers, doctors, and brands.'
+   - Weedmaps connects cannabis consumers, patients, retailers, doctors, and brands.
    - 'Technologies: Ruby on Rails, StimulusJS, Grape, RabbitMQ, PostgreSQL, ElasticSearch, Google Protobuffers, Redis, Memcached'
 
 - name: Eventtia
@@ -26,7 +26,7 @@
     - TrueX allows advertisers to customize their ad experiences to maximize engagement and consumer attention.  
     - 'Technologies: Ruby on Rails, StimulusJS, Angular, Redis, Memcached, MySQL'
 
-- name: Atria Wealth Solutions
+- name: Atria
   url: '#'
   logo: assets/img/atria.jpeg
   description: 
